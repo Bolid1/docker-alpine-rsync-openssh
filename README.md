@@ -1,8 +1,8 @@
 # Docker alpine container with rsync && ssh
 Useful for deployment.
 
-#### Usage examples
-###### Execute command
+## Usage examples
+### Execute command
 If you want to do something on server with your private key and login,
 you can use this command
 
@@ -18,7 +18,7 @@ Option `-l bolid1` used for setup your login<br/>
 Argument `myserver.com` - address of your server<br/>
 Last argument `'cd /srv && ls -la'` - command to execute on server
 
-###### Connect to server
+### Connect to server
 If you want to connect to your server with your private key and login,
 you can use this command
 
